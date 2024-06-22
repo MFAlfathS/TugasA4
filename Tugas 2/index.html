@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./Style/2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DumbWays Klontong Voucher Calculator</h1>
+        <div class="form-group">
+            <label for="voucher">Voucher:</label>
+            <select id="voucher">
+                <option value="DumbWaysJos">DumbWaysJos</option>
+                <option value="DumbWaysMantap">DumbWaysMantap</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="totalBelanja">Total Belanja:</label>
+            <input type="number" id="totalBelanja" placeholder="Masukkan total belanja">
+        </div>
+        <button onclick="hitungVoucher()">Hitung</button>
+        <div class="result">
+            <p id="hasil"></p>
+        </div>
+    </div>
+    <script src="./Style/2.js"></script>
+</body>
+</html>
